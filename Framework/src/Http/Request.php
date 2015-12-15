@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace NukedKlan/Framework/Http;
+namespace NukedKlan\Framework\Http;
 
 use Symfony\Component\HttpFoundation\Request as BaseRequest;
 use Symfony\Component\HttpFoundation\Session\Storage\NativeSessionStorage;
@@ -17,7 +17,6 @@ use Symfony\Component\HttpFoundation\Session\Session;
 
 class Request extends BaseRequest
 {
-
     public static function createFromGlobals()
     {
         $request = parent::createFromGlobals();
