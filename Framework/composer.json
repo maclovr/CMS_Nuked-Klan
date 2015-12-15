@@ -1,0 +1,10 @@
+{
+    "name": "nuked-klan/Framework",
+    "description": "Nuked-Klan 2.x",
+    "license": "MIT",
+
+    "minimum-stability": "stable",
+    "require": {
+        "symfony/http-foundation": "^2.7"
+    }
+}
